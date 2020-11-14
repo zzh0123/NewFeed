@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_goods_img"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:src="@mipmap/head"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_goods_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="left|top"
+            android:gravity="left|top"
+            android:text="商品名称：小猪仔预混料"
+            android:textColor="@color/text_black"
+            android:textSize="13sp"
+            android:maxLines="2"/>
+        <TextView
+            android:id="@+id/tv_cancle_collect"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bt_rectangle_shape_empty_coupon1"
+            android:gravity="center"
+            android:text="取消收藏"
+            android:textColor="@color/bg_coupon1"
+            android:textSize="13sp"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

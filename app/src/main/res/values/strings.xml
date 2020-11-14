@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">慧合牧场营养</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="check_more_rights"><u>查看更多权益</u></string>
+    <string name="upgrade"><u>升级会员</u></string>
+
+
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="app_tip">提示</string>
+
+    <!--支付宝-->
+    <string name="pay_with_alipay">支付宝支付</string>
+    <string name="pay_with_alipay_hk">HK 支付宝支付</string>
+    <string name="auth_with_alipay">支付宝授权</string>
+    <string name="check_sdk_version">支付宝 SDK 版本</string>
+    <string name="pay_success">支付成功:</string>
+    <string name="pay_failed">支付失败:</string>
+    <string name="auth_success">授权成功:</string>
+    <string name="auth_failed">授权失败:</string>
+    <string name="permission_already_granted">支付宝 SDK 已有所需的权限</string>
+    <string name="permission_rejected">无法获取支付宝 SDK 所需的权限, 请到系统设置开启</string>
+    <string name="permission_granted">支付宝 SDK 所需的权限已经正常获取</string>
+    <string name="pay_result">支付结果:</string>
+    <string name="alipay_sdk_version_is">支付宝 SDK 版本:</string>
+    <string name="confirm">确定</string>
+    <string name="error">错误</string>
+    <string name="pay_cross_border">境外收单支付</string>
+    <string name="payment_inst_hk">付款方: HK</string>
+    <string name="payment_inst_cn">付款方: CN</string>
+
+    <!--抽奖转盘-->
+    <string name="iphone_8">iPhone 8</string>
+    <string name="lucky_bead">周大福转运珠</string>
+    <string name="beats_headset">Beats 耳机</string>
+    <string name="xiaomi_scales">小米体重秤</string>
+    <string name="baofeng_vr_glasses">暴风魔镜VR眼镜</string>
+    <string name="iqiyi_month_card">爱奇艺月卡会员</string>
+    <string name="iqiyi_month_card_no">爱奇艺月卡激活码</string>
+
+
+</resources>

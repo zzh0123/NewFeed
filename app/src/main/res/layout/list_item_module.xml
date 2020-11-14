@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <ys.app.feed.widget.CircleImageView
+        android:id="@+id/iv_module"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:src="@mipmap/head"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="1dp"  />
+
+    <TextView
+        android:id="@+id/tv_module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="组团购料"
+        android:textColor="@color/text_black"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>

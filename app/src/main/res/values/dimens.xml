@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="snappingstepper_width_button">30dp</dimen>
+    <dimen name="snappingstepper_padding_button">10dp</dimen>
+    <dimen name="snappingstepper_textSize">15sp</dimen>
+
+    <!--抽奖转盘-->
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_51">51dp</dimen>
+    <dimen name="dp_65">65dp</dimen>
+    <dimen name="dp_82">82dp</dimen>
+    <dimen name="dp_92">92dp</dimen>
+
+
+    <dimen name="sp_11">11sp</dimen>
+</resources>

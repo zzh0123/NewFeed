@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--验证码的属性-->
+    <declare-styleable name="VerCodeEditText">
+        <attr name="figures" format="integer" />
+        <attr name="verCodeMargin" format="dimension" />
+        <attr name="bottomLineSelectedColor" format="reference" />
+        <attr name="bottomLineNormalColor" format="reference" />
+        <attr name="bottomLineHeight" format="dimension" />
+        <attr name="selectedBackgroundColor" format="reference" />
+        <attr name="cursorDuration" format="integer" />
+        <attr name="cursorWidth" format="dimension" />
+        <attr name="cursorColor" format="color|reference" />
+    </declare-styleable>
+
+    <!--底部圆弧形布局-->
+    <declare-styleable name="ArcLayout">
+        <attr name="arc_height" format="dimension" />
+        <attr name="arc_position">
+            <enum name="bottom" value="1" />
+            <enum name="top" value="2" />
+            <enum name="left" value="3" />
+            <enum name="right" value="4" />
+        </attr>
+        <attr name="arc_cropDirection" format="enum">
+            <enum name="cropInside" value="1" />
+            <enum name="cropOutside" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!--圆形图片-->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <!--瀑布流-->
+    <declare-styleable name="StaggeredGridView">
+        <attr name="column_count" format="integer" />
+        <attr name="column_count_portrait" format="integer" />
+        <attr name="column_count_landscape" format="integer" />
+        <attr name="item_margin" format="dimension" />
+        <attr name="grid_paddingLeft" format="dimension" />
+        <attr name="grid_paddingRight" format="dimension" />
+        <attr name="grid_paddingTop" format="dimension" />
+        <attr name="grid_paddingBottom" format="dimension" />
+    </declare-styleable>
+
+    <!--banner-->
+    <declare-styleable name="FlyBanner">
+        <attr name="points_visibility" format="boolean" />
+        <attr name="points_position" format="enum">
+            <enum name="CENTER" value="0" />
+            <enum name="LEFT" value="1" />
+            <enum name="RIGHT" value="2" />
+        </attr>
+        <attr name="points_container_background" format="reference|color" />
+    </declare-styleable>
+
+    <!--加减控件-->
+    <declare-styleable name="SnappingStepper">
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="value" format="integer" />
+        <attr name="step" format="integer" />
+        <attr name="text" format="string" />
+        <attr name="mode" format="enum">
+            <enum name="auto" value="0" />
+            <enum name="custom" value="1" />
+        </attr>
+        <attr name="stepper_background" format="color|reference" />
+        <attr name="stepper_buttonBackground" format="color|reference" />
+        <attr name="stepper_contentBackground" format="color|reference" />
+        <attr name="stepper_contentTextColor" format="color" />
+        <attr name="stepper_contentTextSize" format="float" />
+        <attr name="stepper_leftButtonBackground" format="color|reference" />
+        <attr name="stepper_rightButtonBackground" format="color|reference" />
+        <attr name="stepper_leftButtonResources" format="color|reference" />
+        <attr name="stepper_rightButtonResources" format="color|reference" />
+    </declare-styleable>
+
+    <!--抽奖转盘-->
+    <declare-styleable name="LuckyMonkeyPanelView">
+        <attr name="prizeImg" format="reference"/>
+        <attr name="prizeName" format="string|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="LuckyPanelView">
+        <attr name="item_text_size" format="dimension" />
+        <attr name="item_text_color" format="color" />
+        <attr name="item_click" format="reference" />
+        <attr name="item_bg_normal" format="reference" />
+        <attr name="item_bg_focused" format="reference" />
+        <attr name="border_bg_one" format="reference" />
+        <attr name="border_bg_two" format="reference" />
+    </declare-styleable>
+
+</resources>

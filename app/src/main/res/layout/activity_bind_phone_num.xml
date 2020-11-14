@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.BindPhoneNumActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@mipmap/back_grey" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="绑定手机号"
+            android:textColor="@color/text_black"
+            android:textSize="20sp"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="绑定手机号"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="为了保证账号安全，请绑定手机号"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+
+        <ys.app.feed.widget.ClearEditText
+            android:id="@+id/et_phone_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="15dp"
+            android:hint="请输入手机号"
+            android:textSize="20sp"
+            android:textColor="@color/text_black"
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            android:background="@drawable/et_bg_underline"
+            android:drawableLeft="@null"
+            android:drawableRight="@mipmap/ic_clear_all"
+            android:maxLength="11"
+            android:singleLine="true"
+            android:digits="1234567890"
+            android:inputType="phone|number"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/bt_get_verification_code"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="获取验证码"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/bt_rectangle_shape_grey"
+            android:layout_marginTop="20dp"
+            style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+
+</LinearLayout>

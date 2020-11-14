@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".start.SplashActivity">
+
+    <ImageView
+        android:id="@+id/iv_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <com.sfyc.ctpv.CountTimeProgressView
+        android:id="@+id/countTimeProgressView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        app:backgroundColorCenter="@color/color_jump"
+        app:borderBottomColor="@color/text_grey"
+        app:borderDrawColor="@color/text_green"
+        app:borderWidth="2dp"
+        app:clockwise="true"
+        app:countTime="3000"
+        app:markBallColor="@color/text_green"
+        app:markBallFlag="true"
+        app:markBallWidth="3dp"
+        app:startAngle="0"
+        app:textStyle="jump"
+        app:titleCenterColor="@color/white"
+        app:titleCenterSize="12sp"
+        app:titleCenterText="跳过" />
+</RelativeLayout>

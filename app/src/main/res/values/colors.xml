@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <!--<color name="text_green">#6cbb52</color>-->
+    <color name="tab_normal">#999999</color>
+    <color name="grey">#ffdedede</color>
+    <color name="tab_text_normal">#666666</color>
+    <color name="tab_text_select">#000000</color>
+
+    <!-- 登录界面颜色-->
+    <color name="text_grey">#999999</color>
+    <color name="text_green">#4CB04E</color>
+    <color name="bottom_line_grey">#B6B6B6</color>
+    <color name="button_grey">#CCCCCC</color>
+    <color name="button_green">#4CB04E</color>
+    <color name="text_black">#414244</color>
+
+    <color name="bg_green">#115751</color>
+    <color name="bg_green1">#5ee9dd</color>
+    <color name="bg_green2">#579F30 </color>
+    <color name="bg_green3">#81C349</color>
+    <color name="text_golden">#E3C6A8</color>
+    <color name="text_golden2">#986B1D</color>
+    <color name="text_golden3">#DAA05D</color>
+    <color name="text_red">#FF5639</color>
+    <color name="bg_red">#D43C33</color>
+    <color name="bg_orange">#FF8905 </color>
+    <color name="bg_orange2">#FD9B55</color>
+    <color name="bg_pink">#F97474</color>
+    <color name="bg_pink1">#FB7E35</color>
+    <color name="bg_pink2">#F44930</color>
+    <color name="bg_golden2">#DFCA97</color>
+    <color name="bg_grey">#F5F5F5</color>
+    <color name="bg_grey1">#F8F8F8</color>
+    <color name="bg_golden">#E1C477</color>
+    <color name="bg_yellow">#FFC328</color>
+    <color name="bg_orange3">#F1561E</color>
+    <color name="bg_red1">#FF8231</color>
+    <color name="bg_red2">#FF312C</color>
+
+    <!--glide-->
+    <color name="ic_default_bg_color">#33000000</color>
+
+    <!--微信支付-->
+    <color name="navpage">#FFE1E8EB</color>
+
+    <!--加减控件-->
+    <color name="cl_snappingstepper_button_normal">#237bb6</color>
+    <color name="cl_snappingstepper_button_press">#1f567b</color>
+    <color name="cl_snappingstepper_text_bg">#2b8ccd</color>
+    <color name="cl_snappingstepper_text">#000000</color>
+
+    <!--双11抽奖活动-->
+    <color name="color_b99d79">#b99d79</color>
+    <color name="color_191919">#191919</color>
+    <color name="color_7c542c">#7c542c</color>
+    <color name="color_eccd96">#eccd96</color>
+    <color name="color_b58c64">#b58c64</color>
+    <color name="color_d4b173">#d4b173</color>
+    <color name="color_ffe7bd">#ffe7bd</color>
+    <color name="color_41392e">#41392e</color>
+
+    <!--图片选择器-->
+    <color name="color_fa">#fafafa</color>
+    <color name="color_f6">#f6f6f6</color>
+
+    <!--优惠券-->
+    <color name="bg_coupon1">#4CB04E</color> <!--砍价券-->
+    <color name="bg_coupon2">#E37D00</color> <!--半价券-->
+    <color name="bg_coupon3">#3F8688</color>  <!--免拼券-->
+    <color name="bg_coupon4">#B0924C</color> <!--代金券-->
+
+    <!--跳过-->
+    <color name="color_jump">#22000000</color>
+</resources>
